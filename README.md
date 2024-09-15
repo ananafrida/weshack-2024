@@ -1,1 +1,1 @@
-# dummy-hackathon
+# Welcome to WesHack 2024⚡️
