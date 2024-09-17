@@ -184,21 +184,21 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'overall First',
+      type: 'First Prize',
       content:
-        'First Overall prize will be given to a project that outstands all other submissions'
+        'First prize will be given to a project that outstands all other submissions'
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'overall second',
+      type: 'Second Prize',
       content:
-        'Second Overall prize will be given to the second best project of the hackathon'
+        'Second prize will be given to the second best project of the hackathon'
     },
     {
       icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'overall third',
+      type: 'Third Prize',
       content:
-        'Best third overall project of the hackathon will win some awesome prizes'
+        'Best third prize project of the hackathon will win some awesome prizes'
     }
   ],
   [
@@ -211,8 +211,8 @@ const Prizeinfo = [
     },
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
+      type: 'Best Beginner',
+      content: 'Your project will qualify for this category if it is your first hackathon'
     }
   ]
 ];
@@ -237,7 +237,7 @@ const TeamInfo = [
       Name: 'Yenta',
       role: 'Yenta Bick',
       github: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/yenta-bick-a9681b2a0/',
       img: yenta
     },
     {
@@ -338,23 +338,23 @@ const frequentlyAskedQuestions = [
           'WesHack is free of cost.'
       },
       {
-        label: 'I am a first time hacker, what should I do?',
+        label: 'I am a first time hacker. What should I do?',
         content:
           'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
       },
       {
         label: 'How does team formation work?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form team with upto 4 members. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
       }
     ],
     [
       {
         label: 'What are the tracks?',
-        content: 'Education, health, entertainments, sustainability, and more hidden tracks!'
+        content: 'Education, health, entertainment, sustainability, and more hidden tracks!'
       },
       {
-        label: 'I have more questions?',
+        label: 'What if I have more questions?',
         content:
           'Reach us directly at aafrida@wesleyan.edu and we would happy to help you.'
       },
