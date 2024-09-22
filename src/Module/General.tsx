@@ -49,7 +49,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is WesHack?',
   LONG_DESCRIPTION:
-    'WesHack is 24 hour long running hackathon will be held on November 16th & 17th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at WesHack will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'WesHack is a weekend-long hackathon calling coders, hackers, artists, designers, tech evangelists, and developers to collaborate and build innovative technologies. Throughout the weekend, participants will have the opportunity to attend workshops and speeches from industry experts. Meals, swag and more will be provided throughout, and valuable prizes will be awarded to top performing submissions.',
   LOGO: hackathonLogo
 };
 
@@ -325,12 +325,12 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is a 24 hour event where teams rapidly collaborate to develop innovative software or hardware solutions.'
       },
       {
         label: 'Who can attend?',
         content:
-          'WesHack is open to all undergraduate students across different US universities.'
+          'WesHack is open to all undergraduate students across US universities. We encourage all skill levels to participate.'
       },
       {
         label: 'What is the cost of attending the hackathon?',
