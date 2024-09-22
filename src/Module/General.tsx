@@ -38,10 +38,10 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/code_wes/',
-  discord: '',
+  // discord: '',
   linkedin: 'https://www.linkedin.com/company/codewes/mycompany/',
-  twitter: '',
-  devpost: '',
+  // twitter: '',
+  // devpost: '',
   email: 'mailto:aafrida@wesleyan.edu',
   mail: 'aafrida@wesleyan.edu'
 };
