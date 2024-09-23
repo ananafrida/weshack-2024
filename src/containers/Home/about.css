@@ -62,7 +62,9 @@ h1 {
   margin: 17vh 0vh 0 0vh;
   border-radius: 14px;
   margin-top: 4vh;
-  background-color: #feefef;
+  background-image: url(./assets/pattern4.png);
+  padding-bottom: 5rem;
+  background-size: contain;
 }
 
 .Prizes{
