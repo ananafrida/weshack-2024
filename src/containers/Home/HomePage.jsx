@@ -25,9 +25,9 @@ import {
   SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
 import { JoinTeam, Member } from '../../components/Team';
-import MyCalender from '../calender';
 import './about.css';
 import pattern from './assets/pattern4.png';
+import coder from './assets/coder.png'
 
 const SponsorGroup = (props, index) => {
   return (
@@ -93,7 +93,9 @@ export default function HomePage() {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={5}>
-              <MyCalender />
+              <div style={{backgroundImage: `url(${coder})`,   marginRight: '10%',
+  marginTop: '10%', height: '300px', width: '100%', backgroundSize: 'cover', backgroundPosition: 'center'}}>                
+              </div>
             </Col>
           </Row>
 

@@ -9,9 +9,12 @@
   margin-top: 10vh;
   background-size: auto 100vh;
 }
+
+/*Top Section Background*/
 .color_section {
-  background-color: #1A1919;
+  background-image: url(./assets/pattern4.png);
   padding-bottom: 5rem;
+  background-size: contain;
 }
 .container-fluid {
   max-width: 1500px;
@@ -29,7 +32,7 @@ h1 {
 
 .info {
   margin-top: 20vh;
-  color: white;
+  color: black;
 }
 
 .d-image img {
