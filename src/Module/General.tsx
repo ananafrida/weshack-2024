@@ -12,6 +12,7 @@ import code_wes from './Assets/sponsorsLogos/code_wes.png';
 import oreilly from './Assets/sponsorsLogos/oreilly.png';
 import ourcampus from './Assets/sponsorsLogos/ourcampus.png';
 import wolfram from './Assets/sponsorsLogos/wolfram.png';
+import patricelli from './Assets/sponsorsLogos/patricelli-center.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -311,8 +312,8 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: code_wes, link: "https://wesleyan.campuslabs.com/engage/organization/code_wes"}, {src: actualfood, link: "https://www.echoar.xyz"}, {src: oreilly, link: "https://www.oreilly.com/"}], //Array 1
-  [{src: wolfram, link: "https://www.wolframalpha.com/"}, {src: ourcampus, link: "https://www.replit.com"}], //Array 2
+  [{src: patricelli, link: "https://www.patricelli.center/"}, {src: code_wes, link: "https://wesleyan.campuslabs.com/engage/organization/code_wes"}, {src: actualfood, link: "https://www.echoar.xyz"}], //Array 1
+  [{src: oreilly, link: "https://www.oreilly.com/"}, {src: wolfram, link: "https://www.wolframalpha.com/"}], //Array 2
   [] //Array 3
 ];
 
