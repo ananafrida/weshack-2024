@@ -29,7 +29,7 @@ const TOP_SECTION = {
   TITLE: 'Join WesHack!',
   Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join us on 16-17th November 2024 with over 200 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on November 16-17 with over 200 students from across the nation for 24 hours of creation, innovation, and fun',
   IMG_SRC: boy,
   DISCORD_LINK: '',
   HACKERS_REGISTRATION_FORM_LINK:
@@ -42,8 +42,8 @@ const SOCIALS = {
   linkedin: 'https://www.linkedin.com/company/codewes/mycompany/',
   // twitter: '',
   // devpost: '',
-  email: 'mailto:aafrida@wesleyan.edu',
-  mail: 'aafrida@wesleyan.edu'
+  email: 'mailto:weshack.2024@gmail.com',
+  mail: 'weshack.2024@gmail.com'
 };
 
 const MIDDLE_SECTION = {
@@ -340,12 +340,12 @@ const frequentlyAskedQuestions = [
       {
         label: 'I am a first time hacker. What should I do?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'No worries, we love to welcome first time hackers and start their hacking journey. We will have some awesome workshops and events onsite which will help you get started!'
       },
       {
         label: 'How does team formation work?',
         content:
-          "You can form team with upto 4 members. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form a team with up to 4 members. If you don't have a team, there'll be plenty of opportunities for you to meet hackers through discord or onsite to form a team!"
       }
     ],
     [
@@ -356,21 +356,21 @@ const frequentlyAskedQuestions = [
       {
         label: 'What if I have more questions?',
         content:
-          'Reach us directly at aafrida@wesleyan.edu and we would happy to help you.'
+          'Reach us directly at weshack.2024@gmail.com and we would happy to help you.'
       },
       {
-        label: 'How to register myself in the hackathon?',
+        label: 'How can I register for the hackathon?',
         content:(
           <span>
-            All you need is to fill our <a href="https://docs.google.com/forms/d/1AKRo-4xfymMSnDOccwMDC61PIWVjawXmhPnuVIHa0Vg/">form</a>, we will guide you through everything there.
+            All you need is to fill our <a href="https://docs.google.com/forms/d/1AKRo-4xfymMSnDOccwMDC61PIWVjawXmhPnuVIHa0Vg/">form</a>, and we will guide you after that.
           </span>
         )
       },
       {
-        label: 'Where will the hackathon be?',
+        label: 'Where will the hackathon take place?',
         content: (
           <span>
-            'WesHack 2024 will be in-person at <a href="https://maps.app.goo.gl/nLLQfcUfktdD4kyKA">Exley Science Center, Wesleyan University</a>
+            'WesHack 2024 will be in-person at <a href="https://maps.app.goo.gl/nLLQfcUfktdD4kyKA">Exley Science Center, Wesleyan University, Middletown, CT</a>
           </span>
 
         )
