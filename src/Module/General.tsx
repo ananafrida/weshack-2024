@@ -24,7 +24,7 @@ import leolabs from './Assets/sponsorsLogos/LeoLabs.png';
 
 import chi from './Assets/teami/chi.jpg';
 import me from './Assets/teami/me.png';
-import nishant from './Assets/teami/nishant.png';
+import nishant from './Assets/teami/nishant.jpg';
 import yenta from './Assets/teami/yenta.png';
 
 const TOP_SECTION = {
@@ -380,7 +380,14 @@ const frequentlyAskedQuestions = [
       {
         label: 'Will there be swag?',
         content: 'Yes! Participants will be recieveing WesHack swag!'
-      }
+      },
+      {
+        label: 'Is there a code of conduct?',
+        content:
+        <span>
+          All participants are expected to follow the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"> MLH Code of Conduct </a> throughout the duration of the conference.
+          </span>
+      },
     ]
   ]
 ];
