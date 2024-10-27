@@ -14,6 +14,8 @@ import ourcampus from "./Assets/sponsorsLogos/ourcampus.png";
 import wolfram from "./Assets/sponsorsLogos/wolfram.png";
 import patricelli from "./Assets/sponsorsLogos/patricelli-center.png";
 import leolabs from "./Assets/sponsorsLogos/LeoLabs.png";
+import mlh from "./Assets/sponsorsLogos/mlh.png";
+import qac from "./Assets/sponsorsLogos/qac.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -32,6 +34,7 @@ import ray from "./Assets/teami/ray.jpg";
 
 import Daniel from "./Assets/Judges/DG.jpeg";
 import Daniel2 from "./Assets/Judges/DK.jpeg";
+import { link } from "fs";
 
 
 const TOP_SECTION = {
@@ -190,42 +193,43 @@ const schedule = [
 
 const Prizeinfo = [
   [
-    //Array 1
+    // Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "First Prize",
-      content:
-        "First prize will be given to a project that outstands all other submissions",
+      content: "The First Prize will be awarded to the project that truly stands out among all submissions. The winner will receive a state-of-the-art drone, perfect for capturing aerial footage and enhancing creativity.",
     },
     {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
+      icon: <i className="second fas fa-4x fa-medal"></i>,
       type: "Second Prize",
-      content:
-        "Second prize will be given to the second best project of the hackathon",
+      content: "The Second Prize recognizes the second-best project of the hackathon. The winner will receive an innovative keyboard that enhances productivity and gaming experience.",
     },
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
+      icon: <i className="third fas fa-4x fa-skiing-nordic"></i>,
       type: "Third Prize",
-      content:
-        "Best third prize project of the hackathon will win some awesome prizes",
+      content: "The Third Prize will be given to the best third-place project, with exciting rewards that include high-quality headphones for an immersive audio experience.",
     },
   ],
   [
-    //Array 2
+    // Array 2
     {
       icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Women Hacking Team",
-      content:
-        "Your project will qualify for this prize if your team consists of all females",
+      type: "Best Women's Hacking Team - Prize 1",
+      content: "This award celebrates the Best Women's Hacking Team. Your project will qualify for this prize if your team consists entirely of female participants. The winners will receive a mini projector, ideal for showcasing your innovative ideas.",
+    },
+    {
+      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
+      type: "Best Women's Hacking Team - Prize 2",
+      content: "In addition to the first women's prize, this award recognizes another outstanding all-female team. The winners will receive a stylish Polaroid camera, perfect for capturing memories and moments during the hackathon.",
     },
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "Best Beginner",
-      content:
-        "Your project will qualify for this category if it is your first hackathon",
+      content: "The Best Beginner prize is designed for those participating in their first hackathon. The winner will receive a collection of inspiring books and a portable Bluetooth speaker, perfect for learning and enjoying music on the go.",
     },
   ],
 ];
+
 
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
@@ -340,9 +344,12 @@ const sponsorLogos = [
     },
     { src: oreilly, link: "https://www.oreilly.com/" },
     { src: wolfram, link: "https://www.wolframalpha.com/" },
-    { src: ourcampus, link: "https://ourcampuswes.org/"},
   ], //Array 2
-  [], //Array 3
+  [    { src: ourcampus, link: "https://ourcampuswes.org/"},
+    { src: qac, link: "https://www.qac.com/" },
+    { src: mlh, link: "https://mlh.io/" },
+
+  ], //Array 3
 ];
 
 /** Instructions
