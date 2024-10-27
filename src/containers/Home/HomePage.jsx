@@ -28,6 +28,7 @@ import { JoinTeam, Member } from '../../components/Team';
 import './about.css';
 import pattern from './assets/pattern4.png';
 import coder from './assets/coder.png'
+import Schedule from '../../components/Schedule/Shedule.js';
 
 const SponsorGroup = (props, index) => {
   return (
@@ -158,6 +159,10 @@ export default function HomePage() {
         )}
         {JudgesInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
+
+        <h1>Event Schedule</h1>
+        <Schedule />
+
       </Container>
       <Footer />
     </div>

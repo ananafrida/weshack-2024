@@ -28,6 +28,12 @@ import nishant from "./Assets/teami/nishant.jpg";
 import yenta from "./Assets/teami/yenta.png";
 import ray from "./Assets/teami/ray.jpg";
 
+// Importing all Judges  images  from Assets
+
+import Daniel from "./Assets/Judges/DG.jpeg";
+import Daniel2 from "./Assets/Judges/DK.jpeg";
+
+
 const TOP_SECTION = {
   TITLE: "Join WesHack!",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
@@ -273,45 +279,45 @@ const TeamInfo = [
 
 const JudgesInfo = [
   [
-    // //Array 1
-    // {
-    //   Name: 'Uber',
-    //   role: '',
-    //   github: '',
-    //   linkedin: '',
-    //   img: me
-    // },
-    // {
-    //   Name: 'Caroline',
-    //   role: 'Caroline Liu',
-    //   github: '',
-    //   linkedin: '',
-    //   img: moon
-    // },
-    // {
-    //   Name: 'Greg',
-    //   role: 'Greg',
-    //   github: '',
-    //   linkedin: '',
-    //   img: Ryah
-    // }
+     //Array 1
+     {
+       Name: 'Uber',
+       role: '',
+       github: '',
+       linkedin: '',
+       img: Daniel
+     },
+     {
+       Name: 'Caroline Liu',
+       role: 'Caroline Liu',
+       github: '',
+       linkedin: '',
+       img: Daniel
+     },
+     {
+       Name: 'Greg',
+       role: 'Greg',
+       github: '',
+       linkedin: '',
+       img: Daniel
+     }
   ],
   [
-    // //Array 2
-    // {
-    //   Name: 'Daniel',
-    //   role: 'Daniel Knopf',
-    //   github: '',
-    //   linkedin: '',
-    //   img: lyin
-    // },
-    // {
-    //   Name: 'Daniel',
-    //   role: 'Daniel Goldelman',
-    //   github: '',
-    //   linkedin: '',
-    //   img: zoha
-    // }
+     //Array 2
+     {
+       Name: 'Daniel Knopf',
+       role: 'Daniel Knopf',
+       github: '',
+       linkedin: '',
+       img: Daniel2
+     },
+     {
+       Name: 'Daniel Goldelman',
+       role: 'Daniel Goldelman',
+       github: '',
+       linkedin: '',
+       img: Daniel
+     }
   ],
 ];
 
@@ -334,6 +340,7 @@ const sponsorLogos = [
     },
     { src: oreilly, link: "https://www.oreilly.com/" },
     { src: wolfram, link: "https://www.wolframalpha.com/" },
+    { src: ourcampus, link: "https://ourcampuswes.org/"},
   ], //Array 2
   [], //Array 3
 ];
