@@ -37,7 +37,6 @@ import Daniel2 from "./Assets/Judges/DK.jpeg";
 import Caroline from "./Assets/Judges/caroline.jpg";
 import Greg from "./Assets/Judges/greg.jpg";
 import Mihika from "./Assets/Judges/mihika.jpg";
-import placeholder from "./Assets/Judges/placeholder.png";
 import { link } from "fs";
 
 
