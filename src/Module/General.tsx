@@ -34,6 +34,10 @@ import ray from "./Assets/teami/ray.jpg";
 
 import Daniel from "./Assets/Judges/DG.jpeg";
 import Daniel2 from "./Assets/Judges/DK.jpeg";
+import Caroline from "./Assets/Judges/caroline.jpg";
+import Greg from "./Assets/Judges/greg.jpg";
+import Mihika from "./Assets/Judges/mihika.jpg";
+import placeholder from "./Assets/Judges/placeholder.png";
 import { link } from "fs";
 
 
@@ -285,25 +289,25 @@ const JudgesInfo = [
   [
      //Array 1
      {
-       Name: 'Uber',
-       role: '',
+       Name: 'Mihika Aggarwal',
+       role: 'Mihika Aggarwal',
        github: '',
        linkedin: '',
-       img: Daniel
+       img: Mihika
      },
      {
        Name: 'Caroline Liu',
        role: 'Caroline Liu',
        github: '',
        linkedin: '',
-       img: Daniel
+       img: Caroline
      },
      {
-       Name: 'Greg',
-       role: 'Greg',
+       Name: 'Greg Grinberg',
+       role: 'Greg Grinberg',
        github: '',
        linkedin: '',
-       img: Daniel
+       img: Greg
      }
   ],
   [
