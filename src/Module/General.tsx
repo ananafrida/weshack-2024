@@ -37,6 +37,7 @@ import Daniel2 from "./Assets/Judges/DK.jpeg";
 import Caroline from "./Assets/Judges/caroline.jpg";
 import Greg from "./Assets/Judges/greg.jpg";
 import Mihika from "./Assets/Judges/mihika.jpg";
+import Gavin from "./Assets/Judges/gavin.jpg";
 import { link } from "fs";
 
 
@@ -104,7 +105,7 @@ const schedule = [
     day: "16-11-2024",
     events: [
       {
-        title: "Check-in & Breakfast",
+        title: "Check-in",
         timings: "9 AM",
         link: "https://google.com",
       },
@@ -326,6 +327,16 @@ const JudgesInfo = [
        img: Daniel
      }
   ],
+  [
+    // Array 3
+    {
+      Name: 'Gavin Horning-Kane',
+      role: 'Gavin Horning-Kane',
+      github: '',
+      linkedin: '',
+      img: Gavin
+    }
+  ]
 ];
 
 /** Instructions
