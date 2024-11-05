@@ -26,7 +26,7 @@ const Member = ({info}: {info: any}) => {
       <img src={img} alt="WesHack"></img>
       <div className="members-link">
         <h3>{name}</h3>
-        <p>{role}</p>
+        <p style={{ whiteSpace: 'pre-line' }}>{role}</p>
         <a href={github}>
           <i className="fab fa-2x fa-github"></i>
         </a>

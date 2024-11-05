@@ -246,21 +246,21 @@ const TeamInfo = [
     //Array 1
     {
       Name: "Anan",
-      role: "Anan Afrida",
+      role: "Anan Afrida\nPresident",
       github: "https://github.com/ananafrida",
       linkedin: "https://www.linkedin.com/in/anan-afrida-2080a4190/",
       img: me,
     },
     {
       Name: "Yenta",
-      role: "Yenta Bick",
+      role: "Yenta Bick\nEvent Coordinator",
       github: "",
       linkedin: "https://www.linkedin.com/in/yenta-bick-a9681b2a0/",
       img: yenta,
     },
     {
       Name: "Nishant",
-      role: "Nishant Aggarwal",
+      role: "Nishant Aggarwal\nEvent Coordinator",
       github: "https://github.com/n-aggarwal",
       linkedin: "",
       img: nishant,
@@ -277,7 +277,7 @@ const TeamInfo = [
     },
     {
       Name: "Ray",
-      role: "Ray Huang",
+      role: "Ray Huang\nSocial Media Manager",
       github: "",
       linkedin: "https://www.linkedin.com/in/ray-huang-0baa73193/",
       img: ray,
@@ -289,22 +289,22 @@ const JudgesInfo = [
   [
      //Array 1
      {
-       Name: 'Mihika Aggarwal',
-       role: 'Mihika Aggarwal',
-       github: '',
-       linkedin: '',
-       img: Mihika
-     },
-     {
        Name: 'Caroline Liu',
-       role: 'Caroline Liu',
+       role: "Caroline Liu\nSenior Software Engineer, Google",
        github: '',
        linkedin: '',
        img: Caroline
      },
      {
+      Name: 'Mihika Aggarwal',
+      role: "Mihika Aggarwal\nSoftware Engineer II, Uber",
+      github: '',
+      linkedin: '',
+      img: Mihika
+    },
+     {
        Name: 'Greg Grinberg',
-       role: 'Greg Grinberg',
+       role: "Greg Grinberg\nCEO, ActualFood",
        github: '',
        linkedin: '',
        img: Greg
@@ -314,29 +314,26 @@ const JudgesInfo = [
      //Array 2
      {
        Name: 'Daniel Knopf',
-       role: 'Daniel Knopf',
+       role: "Daniel Knopf\nSoftware Engineer II, Slack",
        github: '',
        linkedin: '',
        img: Daniel2
      },
      {
        Name: 'Daniel Goldelman',
-       role: 'Daniel Goldelman',
+       role: "Daniel Goldelman\nEngineer, GAF",
        github: '',
        linkedin: '',
        img: Daniel
-     }
-  ],
-  [
-    // Array 3
-    {
+     },
+     {
       Name: 'Gavin Horning-Kane',
       role: 'Gavin Horning-Kane',
       github: '',
       linkedin: '',
       img: Gavin
     }
-  ]
+  ],
 ];
 
 /** Instructions
