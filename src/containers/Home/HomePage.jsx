@@ -95,7 +95,7 @@ export default function HomePage() {
             </Col>
             <Col className="d-image" sm={12} lg={5} md={5}>
               <div style={{backgroundImage: `url(${coder})`,   marginRight: '10%',
-  marginTop: '10%', height: '300px', width: '100%', backgroundSize: 'cover', backgroundPosition: 'center'}}>                
+  marginTop: '10%', height: '300px', width: '100%', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               </div>
             </Col>
           </Row>
@@ -150,18 +150,12 @@ export default function HomePage() {
         {/* ********Judges here ***** */}
 
         <h1 id="team">Judges</h1>
-        {FOOTER.JOIN_TEAM.required && (
-          <JoinTeam
-            placeholder="Join our team"
-            formLink={TOP_SECTION.JUDGES_FORM_LINK}
-            content="Coming soon!"
-          />
-        )}
         {JudgesInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
-
+        <Row id="schedule">
         <h1>Event Schedule</h1>
         <Schedule />
+        </Row>
 
       </Container>
       <Footer />

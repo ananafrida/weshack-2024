@@ -121,6 +121,11 @@ const NAVBAR = ({}) => {
                   <span className="links">Team </span>{' '}
                 </Link>
               </li>
+              <li>
+                <Link to={`#schedule`}>
+                  <span className="links">Schedule </span>{' '}
+                </Link>
+              </li>
               <img
                 className="s-close"
                 onClick={() => setToggle(true)}
