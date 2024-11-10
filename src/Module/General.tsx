@@ -120,18 +120,18 @@ const schedule = [
         link: "https://google.com",
       },
       {
+        title: "ActualFood DevOps Workshop",
+        timings: "11:30 AM",
+        link: "https://google.com",
+      },
+      {
         title: "Lunch",
         timings: "1 PM",
         link: "https://google.com",
       },
       {
-        title: "ActualFood DevOps Workshop",
+        title: "MLH GitHub Workshop",
         timings: "2 PM",
-        link: "https://google.com",
-      },
-      {
-        title: "ActualFood Intern Soft Skills Workshop",
-        timings: "3 PM",
         link: "https://google.com",
       },
       {
@@ -328,7 +328,7 @@ const JudgesInfo = [
      },
      {
       Name: 'Gavin Horning-Kane',
-      role: 'Gavin Horning-Kane',
+      role: 'Gavin Horning-Kane\nMentor',
       github: '',
       linkedin: '',
       img: Gavin
