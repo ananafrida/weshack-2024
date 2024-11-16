@@ -185,7 +185,7 @@ const schedule = [
         link: "https://google.com",
       },
       {
-        title: "Judging Begins",
+        title: "Judging Begins (Tishler Hall)",
         timings: "1 PM",
         link: "https://google.com",
       },
