@@ -105,12 +105,17 @@ const schedule = [
     day: "16-11-2024",
     events: [
       {
-        title: "Check-in",
+        title: "Check-in (Exley Science Center - Main Lobby)",
         timings: "9 AM",
-        link: "https://google.com",
+        link: "https://google.com ",
       },
       {
-        title: "Opening Ceremony",
+        title: "Team Formation (Fishbowl)",
+        timings: "9:30 AM",
+        link: "https://google.com"
+      },
+      {
+        title: "Opening Ceremony (Tishler Hall)",
         timings: "10 AM",
         link: "https://google.com",
       },
@@ -120,32 +125,42 @@ const schedule = [
         link: "https://google.com",
       },
       {
-        title: "ActualFood DevOps Workshop",
+        title: "ActualFood DevOps Workshop (Exley 141)",
         timings: "11:30 AM",
         link: "https://google.com",
       },
       {
-        title: "Lunch",
+        title: "Lunch (In Front of Science Library)",
         timings: "1 PM",
         link: "https://google.com",
       },
       {
-        title: "MLH GitHub Workshop",
+        title: "MLH GitHub Workshop (Exley 139)",
         timings: "2 PM",
         link: "https://google.com",
       },
       {
-        title: "Fun games",
+        title: "Fun games - Video Games (Exley 141)",
         timings: "3:30 PM",
         link: "https://google.com",
       },
       {
-        title: "Dinner",
+        title: "Fun games - Movie (Exley 158)",
+        timings: "3:30 PM",
+        link: "https://google.com",
+      },
+      {
+        title: "Fun games - ILight (Exley 139)",
+        timings: "3:30 PM",
+        link: "https://google.com",
+      },
+      {
+        title: "Dinner (In Front of Science Library)",
         timings: "6 PM",
         link: "https://google.com",
       },
       {
-        title: "Snacks",
+        title: "Snacks (In Front of Science Library)",
         timings: "10 PM",
         link: "https://google.com",
       },
@@ -155,7 +170,7 @@ const schedule = [
     day: "17-11-2024",
     events: [
       {
-        title: "Breakfast",
+        title: "Breakfast (In Front of Science Library)",
         timings: "9:30 AM",
         link: "https://google.com",
       },
@@ -165,7 +180,7 @@ const schedule = [
         link: "https://google.com",
       },
       {
-        title: "Lunch",
+        title: "Lunch (In Front of Science Library)",
         timings: "12 PM",
         link: "https://google.com",
       },
@@ -175,7 +190,7 @@ const schedule = [
         link: "https://google.com",
       },
       {
-        title: "Closing Ceremony",
+        title: "Closing Ceremony (Beckham Hall)",
         timings: "3 PM",
         link: "https://google.com",
       },
