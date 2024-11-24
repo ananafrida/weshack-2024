@@ -40,24 +40,23 @@ import Mihika from "./Assets/Judges/mihika.jpg";
 import Gavin from "./Assets/Judges/gavin.jpg";
 import { link } from "fs";
 
-
 const TOP_SECTION = {
   TITLE: "Join WesHack!",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on November 16-17 with over 200 students from across the nation for 24 hours of creation, innovation, and fun",
   IMG_SRC: boy,
-  DISCORD_LINK: "",
+  DISCORD_LINK: "https://discord.gg/qE9MEeWy",
   HACKERS_REGISTRATION_FORM_LINK:
     "https://docs.google.com/forms/d/1AKRo-4xfymMSnDOccwMDC61PIWVjawXmhPnuVIHa0Vg/",
 };
 
 const SOCIALS = {
   instagram: "https://www.instagram.com/code_wes/",
-  // discord: '',
+  discord: "https://discord.gg/qE9MEeWy",
   linkedin: "https://www.linkedin.com/company/codewes/mycompany/",
   // twitter: '',
-  // devpost: '',
+  devpost: "https://weshack-2024.devpost.com/",
   email: "mailto:weshack.2024@gmail.com",
   mail: "weshack.2024@gmail.com",
 };
@@ -112,7 +111,7 @@ const schedule = [
       {
         title: "Team Formation (Fishbowl)",
         timings: "9:30 AM",
-        link: "https://google.com"
+        link: "https://google.com",
       },
       {
         title: "Opening Ceremony (Tishler Hall)",
@@ -150,13 +149,18 @@ const schedule = [
         link: "https://google.com",
       },
       {
-        title: "Fun games - ILight (Exley 139)",
+        title: "Fun games - iLight (Exley 139)",
         timings: "3:30 PM",
         link: "https://google.com",
       },
       {
         title: "Dinner (In Front of Science Library)",
         timings: "6 PM",
+        link: "https://google.com",
+      },
+      {
+        title: "Fireside Chat with Caroline and Mihika",
+        timings: "7 PM",
         link: "https://google.com",
       },
       {
@@ -186,11 +190,11 @@ const schedule = [
       },
       {
         title: "Judging Begins (Tishler Hall)",
-        timings: "1 PM",
+        timings: "12:30 PM",
         link: "https://google.com",
       },
       {
-        title: "Closing Ceremony (Beckham Hall)",
+        title: "Closing Ceremony (Tishler Hall)",
         timings: "3 PM",
         link: "https://google.com",
       },
@@ -216,17 +220,20 @@ const Prizeinfo = [
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "First Prize",
-      content: "The First Prize will be awarded to the project that truly stands out among all submissions. The winner will receive a state-of-the-art drone, perfect for capturing aerial footage and enhancing creativity.",
+      content:
+        "The First Prize will be awarded to the project that truly stands out among all submissions. The winner will receive a state-of-the-art drone, perfect for capturing aerial footage and enhancing creativity.",
     },
     {
       icon: <i className="second fas fa-4x fa-medal"></i>,
       type: "Second Prize",
-      content: "The Second Prize recognizes the second-best project of the hackathon. The winner will receive an innovative keyboard that enhances productivity and gaming experience.",
+      content:
+        "The Second Prize recognizes the second-best project of the hackathon. The winner will receive an innovative keyboard that enhances productivity and gaming experience.",
     },
     {
       icon: <i className="third fas fa-4x fa-skiing-nordic"></i>,
       type: "Third Prize",
-      content: "The Third Prize will be given to the best third-place project, with exciting rewards that include high-quality headphones for an immersive audio experience.",
+      content:
+        "The Third Prize will be given to the best third-place project, with exciting rewards that include high-quality headphones for an immersive audio experience.",
     },
   ],
   [
@@ -234,21 +241,23 @@ const Prizeinfo = [
     {
       icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best Women's Hacking Team - Prize 1",
-      content: "This award celebrates the Best Women's Hacking Team. Your project will qualify for this prize if your team consists entirely of female participants. The winners will receive a mini projector, ideal for showcasing your innovative ideas.",
+      content:
+        "This award celebrates the Best Women's Hacking Team. Your project will qualify for this prize if your team consists entirely of female participants. The winners will receive a mini projector, ideal for showcasing your innovative ideas.",
     },
     {
       icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best Women's Hacking Team - Prize 2",
-      content: "In addition to the first women's prize, this award recognizes another outstanding all-female team. The winners will receive a stylish Polaroid camera, perfect for capturing memories and moments during the hackathon.",
+      content:
+        "In addition to the first women's prize, this award recognizes another outstanding all-female team. The winners will receive a stylish Polaroid camera, perfect for capturing memories and moments during the hackathon.",
     },
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
       type: "Best Beginner",
-      content: "The Best Beginner prize is designed for those participating in their first hackathon. The winner will receive a collection of inspiring books and a portable Bluetooth speaker, perfect for learning and enjoying music on the go.",
+      content:
+        "The Best Beginner prize is designed for those participating in their first hackathon. The winner will receive a collection of inspiring books and a portable Bluetooth speaker, perfect for learning and enjoying music on the go.",
     },
   ],
 ];
-
 
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
@@ -302,52 +311,52 @@ const TeamInfo = [
 
 const JudgesInfo = [
   [
-     //Array 1
-     {
-       Name: 'Caroline Liu',
-       role: "Caroline Liu\nSenior Software Engineer, Google",
-       github: '',
-       linkedin: '',
-       img: Caroline
-     },
-     {
-      Name: 'Mihika Aggarwal',
-      role: "Mihika Aggarwal\nSoftware Engineer II, Uber",
-      github: '',
-      linkedin: '',
-      img: Mihika
+    //Array 1
+    {
+      Name: "Caroline Liu",
+      role: "Caroline Liu\nSenior Software Engineer, Google",
+      github: "",
+      linkedin: "",
+      img: Caroline,
     },
-     {
-       Name: 'Greg Grinberg',
-       role: "Greg Grinberg\nCEO, ActualFood",
-       github: '',
-       linkedin: '',
-       img: Greg
-     }
+    {
+      Name: "Mihika Aggarwal",
+      role: "Mihika Aggarwal\nSoftware Engineer II, Uber",
+      github: "",
+      linkedin: "",
+      img: Mihika,
+    },
+    {
+      Name: "Greg Grinberg",
+      role: "Greg Grinberg\nCEO, ActualFood",
+      github: "",
+      linkedin: "",
+      img: Greg,
+    },
   ],
   [
-     //Array 2
-     {
-       Name: 'Daniel Knopf',
-       role: "Daniel Knopf\nSoftware Engineer II, Slack",
-       github: '',
-       linkedin: '',
-       img: Daniel2
-     },
-     {
-       Name: 'Daniel Goldelman',
-       role: "Daniel Goldelman\nEngineer, GAF",
-       github: '',
-       linkedin: '',
-       img: Daniel
-     },
-     {
-      Name: 'Gavin Horning-Kane',
-      role: 'Gavin Horning-Kane\nMentor',
-      github: '',
-      linkedin: '',
-      img: Gavin
-    }
+    //Array 2
+    {
+      Name: "Daniel Knopf",
+      role: "Daniel Knopf\nSoftware Engineer II, Slack",
+      github: "",
+      linkedin: "",
+      img: Daniel2,
+    },
+    {
+      Name: "Daniel Goldelman",
+      role: "Daniel Goldelman\nEngineer, GAF",
+      github: "",
+      linkedin: "",
+      img: Daniel,
+    },
+    {
+      Name: "Gavin Horning-Kane",
+      role: "Gavin Horning-Kane",
+      github: "",
+      linkedin: "",
+      img: Gavin,
+    },
   ],
 ];
 
@@ -371,10 +380,10 @@ const sponsorLogos = [
     { src: oreilly, link: "https://www.oreilly.com/" },
     { src: wolfram, link: "https://www.wolframalpha.com/" },
   ], //Array 2
-  [    { src: ourcampus, link: "https://ourcampuswes.org/"},
+  [
+    { src: ourcampus, link: "https://ourcampuswes.org/" },
     { src: qac, link: "https://www.qac.com/" },
     { src: mlh, link: "https://mlh.io/" },
-
   ], //Array 3
 ];
 
